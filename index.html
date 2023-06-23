@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body id="body">
+    <div class="main">
+        <div class="contaiiner">
+            <div class="image" id="image">
+                <div class="icon" onclick="search()" id="icon">
+                    <i class="fa-solid fa-magnifying-glass fa-sm search" style="color: #fafaf9;"></i>
+                </div>
+                <div id="input">
+                    <input type="search" name="" id="inputdisa" class="inputVissible" placeholder="Enter city">
+                </div>
+            </div>
+            <div class="contant">
+                <div class="blockEvenly">
+                    <p class="cityName" id="cityName"></p>
+                    <p class="dateDay" id="dayPrint"></p>
+                </div>
+                <p class="font" id="tempreture"></p>
+                <div class="wind">
+                    <p><img width="20px" src="image\1000_F_303023767_bkPlXVXjby3oRyZ37o1McScAHO1Qn2jF.jpg" alt="">Wind
+                    </p>
+                    <p id="wind"></p>
+                </div>
+                <div class="wind">
+                    <p><img width="20px" src="image\1000_F_166036812_kVIeXBdsbKkEjgrzaQSaNyeVeDodgN9H.jpg" alt="">Clouds
+                    </p>
+                    <p id="clouds"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>

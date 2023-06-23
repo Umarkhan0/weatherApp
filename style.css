@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contaiiner {
+    border-radius: 15px;
+    width: 300px;
+    height: 420px;
+    background-color: #1c4e64;
+}
+
+.image {
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.contant {
+    border-radius: 20px 0px 10px 10px;
+    height: 240px;
+    width: 300px;
+    background-color: white !important;
+}
+
+.input {
+    padding: 3px;
+    outline: #c4cbdb;
+    margin-top: 10px;
+}
+
+.icon {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    float: right;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.inputVissible {
+    margin-left: 20px;
+    padding: 3px;
+    margin-top: 20px;
+    border-radius: 5pc;
+    border: 1px black solid;
+    outline: 2px black solid;
+}
+
+.blockEvenly {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+
+}
+
+.cityName {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.dateDay {
+
+    margin-top: 20px;
+}
+
+.font {
+    font-family: 'Impact', sans-serif;
+    font-size: 40px;
+}
+
+.wind {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 20px;
+    width: 200px;
+    background-color: #c4cbdb;
+    padding: 14px;
+    border-radius: 7px;
+    margin-top: 1rem;
+}
+
+.degree {
+    font-size: 20px;
+}
+
+.weaterType {
+    font-size: small;
+}
